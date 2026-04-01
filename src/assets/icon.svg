@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background card -->
+  <rect x="12" y="12" width="104" height="104" rx="16" fill="#f59e0b"/>
+  <!-- Folded corner effect -->
+  <path d="M88 12 L116 40 L88 40 Z" fill="#d97706"/>
+  <path d="M88 12 L116 40" stroke="#b45309" stroke-width="1" fill="none"/>
+  <!-- Lines representing text -->
+  <rect x="24" y="52" width="60" height="7" rx="3.5" fill="white" opacity="0.9"/>
+  <rect x="24" y="67" width="75" height="7" rx="3.5" fill="white" opacity="0.9"/>
+  <rect x="24" y="82" width="48" height="7" rx="3.5" fill="white" opacity="0.9"/>
+</svg>
