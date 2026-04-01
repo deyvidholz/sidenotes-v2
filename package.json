@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run generate:icons && tsc && vite build",
+    "build:chrome": "npm run generate:icons && tsc && vite build && cp dist/manifest.json dist/manifest.opera.json && cp dist/manifest.chrome.json dist/manifest.json",
     "build:noicons": "tsc && vite build",
     "generate:icons": "node scripts/generate-icons.js",
     "preview": "vite preview",
