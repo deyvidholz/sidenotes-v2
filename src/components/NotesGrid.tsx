@@ -42,6 +42,7 @@ function SortableNoteCard({ note, layoutMode }: SortableNoteCardProps) {
         transition,
         opacity: isDragging ? 0 : 1,
       }}
+      className="h-full"
       // Intentionally not spreading {...attributes} here — it adds role="button" which
       // nests inside NoteCard's own role="button", creating invalid HTML and breaking
       // event propagation. Accessibility for the drag handle is handled by the grip

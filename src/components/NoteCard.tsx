@@ -128,7 +128,7 @@ export function NoteCard({ note, layoutMode, dragHandleListeners }: NoteCardProp
       onClick={handleCardClick}
       onContextMenu={handleContextMenu}
       onKeyDown={(e) => e.key === 'Enter' && setEditingNoteId(note.id)}
-      className="group relative flex flex-col rounded-xl border cursor-pointer transition-all hover:shadow-md hover:-translate-y-px active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 overflow-hidden"
+      className="group relative flex flex-col h-full rounded-xl border cursor-pointer transition-all hover:shadow-md hover:-translate-y-px active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 overflow-hidden"
       style={{ backgroundColor: bg, borderColor: border }}
       aria-label={`Note: ${displayTitle}`}
     >
