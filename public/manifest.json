@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Sidenotes V2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A polished sticky-notes app for the Opera sidebar. Create, organize, and search notes without leaving your browser.",
   "permissions": ["storage"],
   "sidebar_action": {
